@@ -20,7 +20,6 @@ $mapping  = [
     Report::MERCHANT_NAME           => 'Merchant Name',
 ];
 
-// TODO: feel free to modify the constructor and pass any dependencies you need (parser, repository, connection, ...)
 $dbConnection = new \Importer\DB(
     $config['db']['host'],
     $config['db']['dbname'],
